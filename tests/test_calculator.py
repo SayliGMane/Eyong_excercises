@@ -112,12 +112,12 @@ class CalculatorDivTestCase(unittest.TestCase):
         with self.assertRaises(TypeError):
             self.calculator.division(x,y)
 
-    # def test_div_with_no_input(self):
+    def test_div_with_no_input(self):
 
-    #     #Arrange
-    #     result=self.calculator.division()
-    #     expected_result=0
-    #     self.assertEqual(result,expected_result)  
+        #Arrange
+        result=self.calculator.division()
+        expected_result=0
+        self.assertEqual(result,expected_result)  
 
     
     def tearDown(self):
